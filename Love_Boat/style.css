@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 206, 212);
+}
+
+header {
+    color: #b62958;
+}
+
+h1 {
+    color: #cc0000;
+}
+
+h6 {
+    color: #660000;   
+
+}

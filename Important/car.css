@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    /* border-style: none; */
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;  
+}
+
+header > nav {
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 4px;
+}
+
+header > nav > ul > li {
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+li a {
+display: flex;
+color: black;
+/* text-align: center; */
+text-decoration: none;
+padding: 14px 15px;
+font-size: 15px;
+transition-property: color;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+}
+
+li:hover a {
+    color: blue;
+}
+
+.join {
+    display: flex;
+    background-color: rgb(215, 225, 238);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.join a {
+    
+    color: rgb(20, 107, 161); 
+}
+
+.join:hover {
+    background-color: linen;
+}
+
+
+.pikin {
+    display: flex;
+    flex-direction: row;
+    background:  whitesmoke url("images/img_car1.jpg") no-repeat left;
+    /* background-attachment: scroll; */
+    margin: 50px;
+    padding: 4px;
+    justify-content: space-around;
+  }
+
+.title {
+    color: rgb(59, 59, 184);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second {
+    display: flex;
+    background-color: rgb(246, 251, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+}
+
+.sec {
+    text-align: center;
+    height: 30vh;
+}
+
+h3 {
+    color: rgb(27, 27, 56);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    align-content: top;
+}

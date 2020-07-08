@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+}
+
+h4 {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+span {
+    color: antiquewhite;
+}
+
+button {
+    border-radius: 20px 30px;
+    width: 8%;
+    background-color: aquamarine;
+    color:  #007bff;
+    border: none;
+}
+
