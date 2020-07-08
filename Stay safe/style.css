@@ -105,6 +105,7 @@ p {
     margin-top: 25px;
 }
 
+
 .footer a {
     margin-right: 10px;
     
@@ -113,15 +114,8 @@ p {
 .footer a img {
     width: 24px;
     height: 24px;
+} 
+
+.footer:hover {
+    color: rgb(247, 189, 1);
 }
-
-.icons {
-    border: #622F72;
-}
-
-
-/* footer .left .socials .icon-holder {
-    margin-right: 1em;
-    text-decoration: none;
-    color: #ffffff;
-  } */
