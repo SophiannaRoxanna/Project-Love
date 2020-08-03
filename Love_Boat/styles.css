@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 217, 217);
+    background-image: url(images/love.img.png);
+    padding-top: 40px;
+    background-repeat: no-repeat; 
+    background-position: right;
+    font-family: 'Montserrat';
+    margin-left: 50px;
+}
+
+/* h1 {
+    color: #be1009;
+    font-size: 60pt;
+}
+
+.air {
+    font-weight: 600;
+    font-size: 20px;
+}  */
+
+.button {
+    background: #08904e;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 0;
+    padding: 10px 10px;
+    transition: 0.3s ease;
+}
